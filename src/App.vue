@@ -34,7 +34,7 @@ export default {
         const response = await axios.get('https://quotes15.p.rapidapi.com/quotes/random/?language_code=en',
           {
             headers: {
-              'x-rapidapi-host': 'rapidapi.com',
+              'x-rapidapi-host': 'quotes15.p.rapidapi.com',
               'x-rapidapi-key': '[9af01b6471msh0ca9e9134e28b10p198f4cjsnfd6152184b12]'
             }
           }
